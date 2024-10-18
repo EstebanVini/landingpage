@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #E0F7FA, #B3E5FC, #81D4FA, #4FC3F7, #29B6F6, #03A9F4, #0288D1, #0277BD, #01579B, #003C8F);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 80%;
+            margin: auto;
+        }
+
+        .logo {
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+
+        .header {
+            font-size: 2em;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        .subheader {
+            font-size: 1.2em;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/logo" alt="Logo de F&M Projects" class="logo">
+        <div class="header">Actualmente nos encontramos en mantenimiento</div>
+        <div class="subheader">Gracias por su comprensión</div>
+    </div>
+</body>
+</html>
